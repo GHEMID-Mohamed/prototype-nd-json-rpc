@@ -1,0 +1,26 @@
+{
+  "name": "delimited-json-encapsulated-json-rpc",
+  "version": "0.0.1",
+  "description": "prototype delimited-json-encapsulated json-rpc",
+  "main": "index.js",
+  "scripts": {
+    "buildPages": "yarn && yarn build",
+    "buildServer": "npm install",
+    "build": "npm run buildPages && npm run buildServer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HamadaBrest/delimited-json-encapsulated-json-rpc.git"
+  },
+  "keywords": [
+    "json-rpc",
+    "delimited",
+    "json"
+  ],
+  "author": "Mohamedox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HamadaBrest/delimited-json-encapsulated-json-rpc/issues"
+  },
+  "homepage": "https://github.com/HamadaBrest/delimited-json-encapsulated-json-rpc#readme"
+}
